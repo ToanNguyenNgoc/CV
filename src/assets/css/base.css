@@ -1,0 +1,22 @@
+@font-face { font-family: roboto-regular; 
+      src: url('../font/Roboto-Regular.ttf'); } 
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    font-family: roboto-regular;
+}
+html{
+      scroll-behavior: smooth;
+  }
+:root{
+      --border-radius: 20px;
+      --text-color: #5E6E80;
+      --text-color-2: #8495FE;
+      --text-color-hover: #627d9b;
+}
+.grid{
+      width: 1100px;
+      max-width: 100%;
+      margin: 0 auto;
+}
